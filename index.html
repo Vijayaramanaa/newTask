@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    button {
+      display: block;
+      margin-top: 10px;
+    }
+    .weather-results {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="form-group">
+      <label for="cityInput">Enter city names (comma-separated):</label>
+      <input type="text" id="cityInput" placeholder="e.g., Toronto, Mumbai, London">
+    </div>
+    <button id="submitBtn">Get Weather</button>
+    <div class="weather-results" id="weatherResults"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
